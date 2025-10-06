@@ -28,6 +28,7 @@
   {
    "fieldname": "category",
    "fieldtype": "Select",
+   "in_standard_filter": 1,
    "label": "Category",
    "options": "Lap Top\nMonitor\nFurniture\nOther"
   },
@@ -44,6 +45,7 @@
   {
    "fieldname": "status",
    "fieldtype": "Select",
+   "in_standard_filter": 1,
    "label": "Status",
    "options": "Available\nAssigned\nUnder Maintenance\nRetired"
   },
@@ -55,6 +57,7 @@
   {
    "fieldname": "assigned_to",
    "fieldtype": "Link",
+   "in_standard_filter": 1,
    "label": "Assigned To",
    "mandatory_depends_on": "eval:doc.status==\"Available\"",
    "options": "Employee"
@@ -78,7 +81,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-10-06 16:55:28.744579",
+ "modified": "2025-10-06 17:14:32.872069",
  "modified_by": "Administrator",
  "module": "Asset Management",
  "name": "Asset",
