@@ -7,7 +7,6 @@
  "engine": "InnoDB",
  "field_order": [
   "employee_name",
-  "employee_id",
   "department",
   "column_break_mkyx",
   "email",
@@ -19,13 +18,6 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Employee Name",
-   "reqd": 1
-  },
-  {
-   "fieldname": "employee_id",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Employee ID",
    "reqd": 1
   },
   {
@@ -51,7 +43,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-10-06 14:39:04.486732",
+ "modified": "2025-10-06 16:46:22.829994",
  "modified_by": "Administrator",
  "module": "Asset Management",
  "name": "Employee",

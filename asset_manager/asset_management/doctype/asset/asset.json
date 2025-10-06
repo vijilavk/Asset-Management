@@ -7,7 +7,6 @@
  "engine": "InnoDB",
  "field_order": [
   "asset_name",
-  "asset_id",
   "category",
   "assigned_to",
   "column_break_hwq8",
@@ -24,13 +23,6 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Asset Name",
-   "reqd": 1
-  },
-  {
-   "fieldname": "asset_id",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Asset ID",
    "reqd": 1
   },
   {
@@ -64,6 +56,7 @@
    "fieldname": "assigned_to",
    "fieldtype": "Link",
    "label": "Assigned To",
+   "mandatory_depends_on": "eval:doc.status==\"Available\"",
    "options": "Employee"
   },
   {
@@ -74,7 +67,8 @@
    "fieldname": "maintenance_logs",
    "fieldtype": "Table",
    "label": "Maintenance Log Details",
-   "options": "Maintenance Log Details"
+   "options": "Maintenance Log Details",
+   "read_only": 1
   },
   {
    "fieldname": "section_break_zvav",
@@ -84,7 +78,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-10-06 15:35:46.776530",
+ "modified": "2025-10-06 16:55:28.744579",
  "modified_by": "Administrator",
  "module": "Asset Management",
  "name": "Asset",
