@@ -244,10 +244,14 @@ app_license = "mit"
 fixtures = [
     {
         "dt": "Role",
-        "filters": [["name", "in", ["Employee", "Asset Manager"]]]
+        "filters": [["name", "in", ["Employee", "Asset Manager"]]],
+
     },
     {
         "dt": "Custom DocPerm",
-        "filters": [["role", "in", ["Employee", "Asset Manager"]]]
-    }
+        "filters": [["role", "in", ["Employee", "Asset Manager"]]],
+    },
+    {
+        "dt": "Workspace", "filters": [["module", "in", ["Asset Management"]]]
+    },
 ]
