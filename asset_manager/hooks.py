@@ -241,4 +241,13 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
-
+fixtures = [
+    {
+        "dt": "Role",
+        "filters": [["name", "in", ["Employee", "Asset Manager"]]]
+    },
+    {
+        "dt": "Custom DocPerm",
+        "filters": [["role", "in", ["Employee", "Asset Manager"]]]
+    }
+]
