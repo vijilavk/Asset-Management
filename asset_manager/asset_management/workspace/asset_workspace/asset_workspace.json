@@ -1,0 +1,62 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"S4MGx3GvHd\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Asset Workspace</span>\",\"col\":12}},{\"id\":\"mT3ZnqPVfN\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Asset Report\",\"col\":3}},{\"id\":\"jLLWazRV0a\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee\",\"col\":3}},{\"id\":\"lYZRRTzbzZ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Maintenance Log\",\"col\":3}},{\"id\":\"Oom7KJb3nf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Asset\",\"col\":3}}]",
+ "creation": "2025-10-07 15:29:20.859799",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "small-up",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Asset Workspace",
+ "links": [],
+ "modified": "2025-10-07 21:24:51.790052",
+ "modified_by": "Administrator",
+ "module": "Asset Management",
+ "name": "Asset Workspace",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 35.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Asset",
+   "link_to": "Asset",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Maintenance Log",
+   "link_to": "Maintenance Log",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Employee",
+   "link_to": "Employee",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Asset Report",
+   "link_to": "Asset Report",
+   "report_ref_doctype": "Asset",
+   "type": "Report"
+  }
+ ],
+ "title": "Asset Workspace"
+}
