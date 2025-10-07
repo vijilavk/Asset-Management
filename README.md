@@ -1,33 +1,44 @@
-### Asset Management
+# Asset Manager App
 
-asset
+## Overview
 
-### Installation
+- asset_manager is a custom Frappe app for managing assets and assigning them to employees. It includes features like:  
+  - Adding and managing assets  
+  - Assigning assets to employees  
+  - Reporting total assets and asset value  
 
-You can install this app using the [bench](https://github.com/frappe/bench) CLI:
+## Installation
 
-```bash
-cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch develop
-bench install-app asset_manager
-```
+1. Get the app from GitHub:  
+bench get-app https://github.com/vijilavk/Asset-Management.git
 
-### Contributing
+2.Install the app to your site:
+bench --site <site_name> install-app asset_manager
 
-This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
+3.Apply migrations and build assets:
+bench migrate
+bench build
+bench clear-cache
 
-```bash
-cd apps/asset_manager
-pre-commit install
-```
+##Assumptions / Features
+Custom DocTypes include:
 
-Pre-commit is configured to use the following tools for checking and formatting your code:
+1.Asset
 
-- ruff
-- eslint
-- prettier
-- pyupgrade
+2.Employee
 
-### License
+3.Maintenance Log
 
-mit
+4.Maintenance Log Details
+
+-Maintenance Log:
+
+It is a submittable document.
+
+If a Maintenance Log is in Draft, the related Asset's status is Under Maintenance.
+
+If a Maintenance Log is Submitted, the related Asset's status is Available.
+
+-Maintenance Log Details:
+
+It is a child doctype.
