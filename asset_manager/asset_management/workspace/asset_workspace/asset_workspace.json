@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"S4MGx3GvHd\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Asset Workspace</span>\",\"col\":12}},{\"id\":\"mT3ZnqPVfN\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Asset Report\",\"col\":3}},{\"id\":\"jLLWazRV0a\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee\",\"col\":3}},{\"id\":\"lYZRRTzbzZ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Maintenance Log\",\"col\":3}},{\"id\":\"Oom7KJb3nf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Asset\",\"col\":3}}]",
+ "content": "[{\"id\":\"S4MGx3GvHd\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Asset Workspace</span>\",\"col\":12}},{\"id\":\"jLLWazRV0a\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee\",\"col\":3}},{\"id\":\"lYZRRTzbzZ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Maintenance Log\",\"col\":3}},{\"id\":\"Oom7KJb3nf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Asset\",\"col\":3}},{\"id\":\"4uheDLH1LI\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee Assigned Asset Report\",\"col\":3}},{\"id\":\"mT3ZnqPVfN\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Asset Report\",\"col\":3}},{\"id\":\"I0crojY3NN\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee Assigned Assets Dashboard\",\"col\":3}}]",
  "creation": "2025-10-07 15:29:20.859799",
  "custom_blocks": [],
  "docstatus": 0,
@@ -13,7 +13,7 @@
  "is_hidden": 0,
  "label": "Asset Workspace",
  "links": [],
- "modified": "2025-10-07 21:24:51.790052",
+ "modified": "2025-10-08 11:07:41.975417",
  "modified_by": "Administrator",
  "module": "Asset Management",
  "name": "Asset Workspace",
@@ -25,6 +25,21 @@
  "roles": [],
  "sequence_id": 35.0,
  "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Employee Assigned Assets Dashboard",
+   "link_to": "Assigned Assets Dashboard",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Employee Assigned Asset Report",
+   "link_to": "Assigned Asset",
+   "report_ref_doctype": "Asset",
+   "type": "Report"
+  },
   {
    "color": "Grey",
    "doc_view": "List",
