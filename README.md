@@ -5,7 +5,9 @@
 - asset_manager is a custom Frappe app for managing assets and assigning them to employees. It includes features like:  
   - Adding and managing assets  
   - Assigning assets to employees  
-  - Reporting total assets and asset value  
+  - Reporting total assets and asset value
+  -Reporting assigned asset for employees
+-dash board view for employee asset 
 
 ## Installation
 
