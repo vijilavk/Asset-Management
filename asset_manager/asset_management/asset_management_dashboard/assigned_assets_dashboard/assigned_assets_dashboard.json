@@ -1,0 +1,25 @@
+{
+ "cards": [
+  {
+   "card": "Number Of Asset"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Asset Details",
+   "width": "Full"
+  }
+ ],
+ "creation": "2025-10-07 22:15:55.520451",
+ "dashboard_name": "Assigned Assets Dashboard",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2025-10-08 10:54:42.571621",
+ "modified_by": "Administrator",
+ "module": "Asset Management",
+ "name": "Assigned Assets Dashboard",
+ "owner": "Administrator"
+}
