@@ -1,0 +1,28 @@
+{
+ "cards": [
+  {
+   "card": "Asset Assigned Card"
+  },
+  {
+   "card": "asset card-1"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Asset",
+   "width": "Full"
+  }
+ ],
+ "creation": "2025-10-07 15:52:41.224097",
+ "dashboard_name": "Asset Dashboard",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2025-10-08 10:18:49.020781",
+ "modified_by": "Administrator",
+ "module": "Asset Management",
+ "name": "Asset Dashboard",
+ "owner": "Administrator"
+}
