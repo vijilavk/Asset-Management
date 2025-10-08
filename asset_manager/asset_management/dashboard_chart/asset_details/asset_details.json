@@ -1,0 +1,35 @@
+{
+ "chart_name": "Asset Details",
+ "chart_type": "Report",
+ "creation": "2025-10-08 10:38:55.045032",
+ "currency": "INR",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "dynamic_filters_json": "{}",
+ "filters_json": "{}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "modified": "2025-10-08 10:45:19.555233",
+ "modified_by": "Administrator",
+ "module": "Asset Management",
+ "name": "Asset Details",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "Assigned Asset",
+ "roles": [],
+ "show_values_over_chart": 0,
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Pie",
+ "use_report_chart": 0,
+ "x_field": "asset_name",
+ "y_axis": [
+  {
+   "color": "#f5c1c1",
+   "y_field": "purchase_cost"
+  }
+ ]
+}
