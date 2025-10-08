@@ -8,12 +8,12 @@ def execute(filters=None):
 
 def get_columns():
     return [
-        {"label": "Asset ID", "fieldname": "name", "fieldtype": "Link", "options": "Asset", "width": 150},
+        {"label": "Asset ID", "fieldname": "name", "fieldtype": "Link", "options": "Asset", "width": 180},
         {"label": "Asset Name", "fieldname": "asset_name", "fieldtype": "Data", "width": 200},
-        {"label": "Category", "fieldname": "category", "fieldtype": "Data", "width": 150},
-        {"label": "Status", "fieldname": "status", "fieldtype": "Data", "width": 150},
-        {"label": "Purchase Date", "fieldname": "purchase_date", "fieldtype": "Date", "width": 120},
-        {"label": "Purchase Cost", "fieldname": "purchase_cost", "fieldtype": "Currency", "width": 120},
+        {"label": "Category", "fieldname": "category", "fieldtype": "Data", "width": 200},
+        {"label": "Status", "fieldname": "status", "fieldtype": "Data", "width": 200},
+        {"label": "Purchase Date", "fieldname": "purchase_date", "fieldtype": "Date", "width": 200},
+        {"label": "Purchase Cost", "fieldname": "purchase_cost", "fieldtype": "Currency", "width": 200},
     ]
 
 
